@@ -4,8 +4,16 @@
 E-Books es un sistema de gestión para bibliotecas que realiza una búsqueda más rápida de libros específicos por el usuario, además de permitir agregar nuevos libros al sistema, así como realizar un seguimiento de los libros prestados actualmente.
 </p>
 
-- Video DEMO: [Ver en YouTube](https://www.youtube.com/watch?v=vVouKXwfD8w&t=14s){:target="_blank"}
-- Sitio Web del Proyecto: [Project-WebSite](https://juanrcoder.github.io/E-Books/){:target="_blank"}
+
+- Video DEMO:
+<a href="[URL_del_recurso](https://www.youtube.com/watch?v=vVouKXwfD8w&t=14s)" target="_blank">
+  Ver video en Youtube
+</a>
+- Sitio Web del Proyecto:
+<a href="https://juanrcoder.github.io/E-Books/" target="_blank">
+  Project-WebSite
+</a>
+
 
 ## Tecnologías:
 
@@ -69,8 +77,14 @@ Las mejoras para este proyecto son las siguientes:
 - Instagram: [juanrcoder](https://www.instagram.com/juanrcoder/){:target="_blank"}
 
 ### Proyecto:
-- Video DEMO: [Ver en YouTube](https://www.youtube.com/watch?v=vVouKXwfD8w&t=14s){:target="_blank"}
-- Sitio Web del Proyecto: [Project-WebSite](https://juanrcoder.github.io/E-Books/){:target="_blank"}
+- Video DEMO:
+<a href="[URL_del_recurso](https://www.youtube.com/watch?v=vVouKXwfD8w&t=14s)" target="_blank">
+  Ver video en Youtube
+</a>
+- Sitio Web del Proyecto:
+<a href="https://juanrcoder.github.io/E-Books/" target="_blank">
+  Project-WebSite
+</a>
 
 
 ## Licence:
