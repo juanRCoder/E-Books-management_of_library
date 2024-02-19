@@ -4,16 +4,8 @@
 E-Books es un sistema de gestión para bibliotecas que realiza una búsqueda más rápida de libros específicos por el usuario, además de permitir agregar nuevos libros al sistema, así como realizar un seguimiento de los libros prestados actualmente.
 </p>
 
-
-- Video DEMO:
-<a href="[URL_del_recurso](https://www.youtube.com/watch?v=vVouKXwfD8w&t=14s)" target="_blank">
-  Ver video en Youtube
-</a>
-- Sitio Web del Proyecto:
-<a href="https://juanrcoder.github.io/E-Books/" target="_blank">
-  Project-WebSite
-</a>
-
+- Video DEMO: [Ver en YouTube](https://www.youtube.com/watch?v=vVouKXwfD8w&t=14s)
+- Sitio Web del Proyecto: [Project-WebSite](https://juanrcoder.github.io/E-Books/)
 
 ## Tecnologías:
 
@@ -73,18 +65,12 @@ Las mejoras para este proyecto son las siguientes:
 
 ## Author:
 ### Juan Ramirez
-- Linkedin: [Juan Ramirez](https://www.linkedin.com/in/juan-ramirez-490b84271/){:target="_blank"}
-- Instagram: [juanrcoder](https://www.instagram.com/juanrcoder/){:target="_blank"}
+- Linkedin: [Juan Ramirez](https://www.linkedin.com/in/juan-ramirez-490b84271/)
+- Instagram: [juanrcoder](https://www.instagram.com/juanrcoder/)
 
 ### Proyecto:
-- Video DEMO:
-<a href="[URL_del_recurso](https://www.youtube.com/watch?v=vVouKXwfD8w&t=14s)" target="_blank">
-  Ver video en Youtube
-</a>
-- Sitio Web del Proyecto:
-<a href="https://juanrcoder.github.io/E-Books/" target="_blank">
-  Project-WebSite
-</a>
+- Video DEMO: [Ver en YouTube](https://www.youtube.com/watch?v=vVouKXwfD8w&t=14s)
+- Sitio Web del Proyecto: [Project-WebSite](https://juanrcoder.github.io/E-Books/)
 
 
 ## Licence:
