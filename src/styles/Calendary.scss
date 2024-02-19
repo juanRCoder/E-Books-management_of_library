@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic");
+
+:root {
+  --primary-color: #f90a39;
+  --text-color: #1d1d1d;
+  --bg-color: transparent;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: transparent;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+}
+
+.calendar {
+  width: 100%;
+  max-width: 600px;
+  background: transparent;
+  padding: 0px 10px;
+  border-radius: 10px;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 9px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ccc;
+
+    .month {
+      display: flex;
+      align-items: center;
+      font-size: 12px;
+      color: #fff;
+    }
+
+    .btns {
+      display: flex;
+      gap: 10px;
+
+      .btn {
+        width: 24px;
+        height: 25px;
+        background-color: #292e49;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        transition-property: background-color, transform;
+        transition-duration: 0.3s;
+
+        &:hover {
+          background-color: #292e4988;
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
+
+  .weekdays {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+
+    .day {
+      width: calc(14.2857142857% - 10px);
+      text-align: center;
+      font-size: 12px;
+      font-weight: 600;
+      font-family: Inter;
+    }
+  }
+
+  .days {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    .day {
+      width: calc(14.2857142857% - 10px);
+      height: 22px;
+      background-color: #ddd2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      font-size: 13px;
+      font-weight: 400;
+      color: #fff;
+      transition: all 0.3s;
+      user-select: none;
+
+      &:not(.next):not(.prev):hover {
+        color: #fff;
+        background-color: #292e49;
+        transform: scale(1.05);
+      }
+
+      &.next,
+      &.prev {
+        color: #ccc;
+      }
+
+      &.today {
+        color: #fff;
+        background-color: #292e49;
+      }
+    }
+  }
+}
+
+.credits {
+  a {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: #aaa;
+  }
+
+ 
+}

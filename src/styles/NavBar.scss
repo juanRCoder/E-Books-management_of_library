@@ -1,0 +1,37 @@
+@use "variables";
+
+.boxMain {
+  width: 17%;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  z-index: 40;
+}
+.ContainerNavbar {
+  background: linear-gradient(0deg, #536976, #292e49);
+  color: variables.$color-white;
+  font-family: variables.$font-familyInter;
+  overflow-y: auto;
+  height: 100%;
+}
+.ContainerNavbar > h1 {
+  text-align: center;
+  font-size: 38px;
+  margin-top: 8px;
+  user-select: none;
+}
+.ContainerNavbar > p {
+  text-align: justify;
+  padding: 10px 19px 0px 19px;
+  font-size: 11px;
+  margin-bottom: 15px;
+  user-select: none;
+}
+.ContainerNavbar::-webkit-scrollbar {
+  width: 6px;
+  background-color: #b5b5b5;
+}
+.ContainerNavbar::-webkit-scrollbar-thumb {
+  background-color: #555555;
+  border-radius: 5px;
+}

@@ -1,0 +1,59 @@
+@use "variables";
+
+.InputFileContainer {
+  height: 409px;
+  width: 100%;
+  position: relative;
+  margin: auto;
+  margin-bottom: 18px;
+  border: 2px dashed #aaa;
+
+  .labelInputFile {
+    position: absolute;
+    font-size: 22px;
+    color: #555;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Inter;
+
+    #inputFile {
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+    }
+  }
+
+  .boxImagePrev {
+    cursor: pointer;
+    height: 100%;
+
+    > img {
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+    }
+  }
+}
+
+.exitImage {
+  background: linear-gradient(0deg, #536976, #292e49);
+  width: 100%;
+  color: variables.$color-white;
+  margin: auto;
+  height: 35px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.exitImage:hover {
+  background: linear-gradient(9deg, #536976e0, #292e49e0);
+}

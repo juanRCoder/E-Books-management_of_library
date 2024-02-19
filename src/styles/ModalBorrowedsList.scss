@@ -1,0 +1,116 @@
+@use "variables";
+
+.backgroundBorrredList {
+  width: 83%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 10;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-family: Inter;
+
+  .addBook_title {
+    text-align: center;
+    color: #444;
+    font-size: 29px;
+    position: absolute;
+    font-family: Inter;
+    top: 32px;
+    text-decoration: underline;
+  }
+
+  .containerBorrredList {
+    width: 75%;
+    height: 216px;
+    overflow: hidden;
+    margin: 10px 0px;
+    display: flex;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    outline: 1px solid #aaa;
+    border-radius: 5px;
+
+    .containerImage {
+      width: 18%;
+      padding: 12px;
+      display: grid;
+      place-items: center;
+
+      > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .containerInformation {
+      width: 60%;
+
+      > h3 {
+        text-align: center;
+        padding: 14px 0px 10px 0px;
+        color: #333;
+      }
+
+      > .boxDate {
+        display: flex;
+        justify-content: space-between;
+        padding: 3px 14px;
+
+        .labelP {
+          color: #444;
+          display: flex;
+          align-items: center;
+        }
+        > .span {
+          width: 75%;
+          height: 30px;
+          overflow-y: auto;
+          scrollbar-width: none;
+          background-color: #ddd;
+          border-radius: 3px;
+          font-size: 14px;
+          padding: 0px 0px 0px 15px;
+          display: flex;
+          align-items: center;
+        }
+
+        .lastChild {
+          width: 75%;
+          height: 42px;
+          overflow-y: scroll;
+          scrollbar-width: none;
+          border-radius: 3px;
+          font-size: 14px;
+          padding: 5px 0px 5px 15px;
+          background-color: #ddd;
+        }
+      }
+    }
+    .containerDate {
+      width: 22%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      &_box {
+        height: 35%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 15px;
+
+        &_label {
+          color: #555;
+          font-weight: 800;
+        }
+        &_date {
+          color: #555;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

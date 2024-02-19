@@ -1,0 +1,189 @@
+@use "variables";
+
+.backgroundModal {
+  background-image: url(../assets/backgroundBooks.png);
+  height: 100vh;
+  width: 83%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  font-family: Inter;
+
+  .addBook_title {
+    text-align: center;
+    color: #444;
+    font-size: 29px;
+    position: absolute;
+    font-family: Inter;
+    top: 32px;
+    text-decoration: underline;
+  }
+
+  .boxModal {
+    width: 74%;
+    height: 520px;
+    padding: 30px;
+    outline: 1px solid #333;
+    border-radius: 4px;
+    position: relative;
+    margin-top: 56px;
+    backdrop-filter: blur(10px);
+    background-color: #ddd1;
+    outline: 1px solid #aaa;
+
+    .AddForm {
+      display: flex;
+
+      &_inImage {
+        width: 32%;
+      }
+
+      &_container {
+        width: 67%;
+        margin-left: 30px;
+
+        &_parameter {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 10px;
+          position: relative;
+
+          .inputText {
+            width: 100%;
+            border-radius: 4px;
+            border: none;
+            outline: none;
+            padding: 8px;
+            padding-left: 15px;
+            font-size: 17px;
+            color: #333333;
+            background-color: #ddd;
+            font-family: Inter;
+          }
+
+          .selectInput {
+            margin-right: 20px;
+          }
+          select option:checked::before {
+            content: '\1F609'; /* Unicode del emoji o tu icono */
+            margin-right: 5px; /* Ajusta según sea necesario */
+          }
+
+          .buttonGenre {
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 100%;
+            width: 135px;
+            font-size: 15px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            color: #ffffff;
+            background: linear-gradient(0deg, #536976, #292e49);
+            border-bottom-right-radius: 4px;
+            border-top-right-radius: 4px;
+            font-family: variables.$font-familyInriaSans;
+            transition: transform 0.5s ease;
+          }
+          .buttonGenre:hover {
+            background: linear-gradient(9deg, #536976e0, #292e49e0);
+          }
+
+          .textarea {
+            height: 105px;
+            margin-top: 15px;
+            border: none;
+            outline: none;
+            padding: 10px;
+            resize: none;
+            font-size: 15px;
+            color: #333;
+            background-color: #ddd;
+            font-family: Inter;
+            border-radius: 4px;
+          }
+        }
+        .btnAddBook {
+          position: absolute;
+          bottom: 28px;
+          width: 60.5%;
+          background: linear-gradient(0deg, #536976, #292e49);
+          color: variables.$color-white;
+          margin: auto;
+          height: 35px;
+          border: none;
+          outline: none;
+          font-size: 18px;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+
+        .btnAddBook:hover {
+          background: linear-gradient(9deg, #536976e0, #292e49e0);
+        }
+
+        .boxOptionsGenres {
+          max-height: 55px;
+          border-radius: 2px;
+          margin-top: 14px;
+          overflow-y: scroll;
+
+          .generOption {
+            display: inline-block;
+            color: #ffffff;
+            font-size: 15px;
+            height: 24px;
+            border-radius: 5px;
+            padding: 1.5px 7px;
+            margin: 0px 10px 5px 0px;
+            font-family: Inter;
+            cursor: pointer;
+            background: linear-gradient(0deg, #536976, #292e49);
+          }
+
+          > label {
+            padding: 0px 4px;
+          }
+
+          .genreExit {
+            background-color: transparent;
+            outline: none;
+            border: none;
+            color: variables.$color-white;
+            margin: 2px 0px -2px 10px;
+            transform: scale(1.1);
+          }
+        }
+      }
+      .boxOptionsGenres::-webkit-scrollbar {
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+.msgBook {
+  position: absolute;
+  top: 39px;
+  left: 43.5%;
+  transform: translateY(-100px);
+  width: 30%;
+  font-size: 17px;
+  height: 49px;
+  opacity: 1;
+  background-color: #5ad968;
+  border-radius: 4px;
+  color: #fff;
+  z-index: 300;
+  display: grid;
+  place-items: center;
+  font-family: "Inter";
+  transition-property: transform, opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.msgBook.show {
+  transform: translateY(-10px);
+}

@@ -1,0 +1,13 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f1f4fd;
+}
+.MainInterface {
+  display: flex;
+  height: 100%;
+  background-image: url(/src/assets/backgroundBooks.png);
+}
