@@ -1,11 +1,11 @@
-<img src="./src/assets/img2.png" alt="Logo" height="200" width="100%">
+<img src="./src/assets/img2.png" alt="Logo" height="350" width="100%">
 <p align='justify'>
 <h1 style="display: inline-block;">E-Books</h1>
 E-Books es un sistema de gestión para bibliotecas que realiza una búsqueda más rápida de libros específicos por el usuario, además de permitir agregar nuevos libros al sistema, así como realizar un seguimiento de los libros prestados actualmente.
 </p>
 
-Proyecto: [DEMO](https://www.youtube.com/watch?v=vVouKXwfD8w&t=14s)
-URL: [WebSite](http://localhost:3006)
+- Proyecto: [DEMO](https://www.youtube.com/watch?v=vVouKXwfD8w&t=14s)
+- URL: [WebSite](http://localhost:3006)
 
 
 ## Tecnologías:
@@ -29,7 +29,7 @@ Las mejoras para este proyecto son las siguientes:
 - Modo responsive (para móviles y tabletas).
 - Agregar y solicitar más de 1 libro a la vez.
 - Actualizar y eliminar un libro.
-- Despliegue dinámico."
+- Despliegue dinámico.
 
 
 ## Instalación:
@@ -70,8 +70,8 @@ Las mejoras para este proyecto son las siguientes:
 - Instagram: [juanrcoder](https://www.instagram.com/juanrcoder/)
 
 
-Proyecto: [DEMO](https://www.youtube.com/watch?v=vVouKXwfD8w&t=14s)
-URL: [WebSite](http://localhost:3006)
+- Proyecto: [DEMO](https://www.youtube.com/watch?v=vVouKXwfD8w&t=14s)
+- URL: [WebSite](http://localhost:3006)
 
 
 ## Licence:
