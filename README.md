@@ -4,9 +4,8 @@
 E-Books es un sistema de gestión para bibliotecas que realiza una búsqueda más rápida de libros específicos por el usuario, además de permitir agregar nuevos libros al sistema, así como realizar un seguimiento de los libros prestados actualmente.
 </p>
 
-- Proyecto: [DEMO](https://www.youtube.com/watch?v=vVouKXwfD8w&t=14s)
-- URL: [WebSite](http://localhost:3006)
-
+- Video DEMO: [Ver en YouTube](https://www.youtube.com/watch?v=vVouKXwfD8w&t=14s){:target="_blank"}
+- Sitio Web del Proyecto: [Project-WebSite](https://juanrcoder.github.io/E-Books/){:target="_blank"}
 
 ## Tecnologías:
 
@@ -66,12 +65,12 @@ Las mejoras para este proyecto son las siguientes:
 
 ## Author:
 ### Juan Ramirez
-- Linkedin: [Juan Ramirez](https://www.linkedin.com/in/juan-ramirez-490b84271/)
-- Instagram: [juanrcoder](https://www.instagram.com/juanrcoder/)
+- Linkedin: [Juan Ramirez](https://www.linkedin.com/in/juan-ramirez-490b84271/){:target="_blank"}
+- Instagram: [juanrcoder](https://www.instagram.com/juanrcoder/){:target="_blank"}
 
-
-- Proyecto: [DEMO](https://www.youtube.com/watch?v=vVouKXwfD8w&t=14s)
-- URL: [WebSite](http://localhost:3006)
+### Proyecto:
+- Video DEMO: [Ver en YouTube](https://www.youtube.com/watch?v=vVouKXwfD8w&t=14s){:target="_blank"}
+- Sitio Web del Proyecto: [Project-WebSite](https://juanrcoder.github.io/E-Books/){:target="_blank"}
 
 
 ## Licence:
