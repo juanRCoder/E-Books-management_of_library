@@ -16,6 +16,7 @@ function App() {
 
           <Routes>
             <Route path="/" element={<Library />} />
+            <Route path="/E-Books" element={<Library />} />
             <Route path="/agregar-libro" element={<ModalAdd />} />
             <Route path="/solicitud-prestamo-libro" element={<ModalPrestar />} />
             <Route path="/lista-libros-prestados" element={<ModalborrowedsList />} />
